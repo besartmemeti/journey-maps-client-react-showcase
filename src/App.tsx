@@ -39,8 +39,8 @@ function App() {
   }, []);
 
   const onClick = () => {
-    originalMap?.moveNorth();
-    // map.current?.unselectAll(["POI"]); -> doesn't work for me
+    map.current?.moveNorth();
+    // map.current?.moveNorth(); -> doesn't work for me
   };
 
   return (
